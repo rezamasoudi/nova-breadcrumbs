@@ -1,0 +1,19 @@
+.breadcrumbs-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs-wrapper .breadcrumb-item {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.breadcrumbs-wrapper .breadcrumb-item:not(:last-child)::after {
+    content: '/';
+    margin: 0 5px;
+}
+
+.breadcrumbs-wrapper .breadcrumb-item.deactive {
+    color: #999;
+    pointer-events: none;
+}

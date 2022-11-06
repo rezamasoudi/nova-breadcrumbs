@@ -1,0 +1,36 @@
+{
+    "name": "masoudi/nova-breadcrumbs",
+    "description": "laravel nova breadcrumbs",
+    "keywords": [
+        "laravel",
+        "nova",
+        "breadcrumbs"
+    ],
+    "authors": [
+        {
+            "name": "Reza Masoudi",
+            "email": "dev.masoudi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Masoudi\\Nova\\Breadcrumbs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Masoudi\\Nova\\Breadcrumbs\\BreadcrumbsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
